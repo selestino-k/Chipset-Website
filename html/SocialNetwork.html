@@ -19,5 +19,85 @@
                     <li class="list-item"><a href="SocialNetwork.html" clas s="list-link">Social Network</a></li>
                 </ul>
     </header>
+    <div class="container">
+        <div class = "btn-group">
+            <style>
+               .container
+               {
+                display: flex;   
+                justify-content: center;
+                margin-top: 200px;
+               }
+               .btn-group{
+                margin: auto;
+                position: relative;
+                top: 50%;
+                -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+                flex-direction: column;
+               }
+               
+                .btn-group button
+                {
+                    background-color: DodgerBlue; /* Blue background */
+                    border: none; /* Remove borders */
+                    color: white; /* White text */
+                    padding: 12px 16px; /* Some padding */
+                    font-size: 20px; /* Set a font size */
+                    cursor: pointer; /* Mouse pointer on hover */
+                    margin-left: 10px;
+                   
+                }
+                .btn-group button:hover 
+                {
+                    filter: brightness(150%);
+                }
+                button.IG{
+                    
+                    background-color: rgb(234, 8, 117);
+                }
+                button.YT
+                {
+                    background-color: rgba(255, 0, 0, 0.741);
+                }
+                button.DC
+                {
+                    background-color: rgb(105, 51, 240);
+                }
+                img{
+                    width: 28px;
+                    height: 25px;
+                    padding-right: 3px;
+                    align-items: center;
+                }
+                button{
+                    align-items: center;
+                    display: inline-flex;
+                    
+                }
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+                </style>
+        <button class="IG">
+            <img src="/images/icons8-instagram-16.png" alt="Instagram"/>
+            <a href="https://www.instagram.com/chipset20_unc/" target=_blank>
+            Instagram</a> 
+        </button>
+        <button class="YT">
+            <img src="/images/icons8-youtube-24.png" alt="YouTube">
+            <a href="https://www.youtube.com/channel/UCom3E7KfVAy0B3twjZi44Ew" target=_blank>
+            YouTube</a>
+        </button>
+        <button class="DC">
+            <img src="/images/icons8-discord-new-50.png">
+            <a href="https://discord.gg/ehAbeU5d4p" target=_blank>
+            Discord</a>
+        </button>
+    </div>
+
+    </div>
+    
 </body>
 </html>
