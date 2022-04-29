@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Istok_Web';
+    src: url(/fonts/IstokWeb-Regular.ttf);
+}
+@font-face {
+    font-family: 'Istok_Italic';
+    src: url(/fonts/IstokWeb-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'Istock_Bold';
+    src: url(/fonts/IstokWeb-Bold.ttf);
+}
+
+.logochipset{
+    position: absolute;
+    width: 106.65px;
+    height: 97px;
+    left: 622px;
+    top: 210px;
+}
+
+
+.mainoption{
+    position: absolute;
+    /* width: 109px;
+    height: 33px;
+    left: 627px;
+    top: 468px; */
+}
+
+.Primary
+{    
+    
+    color: #fff;
+    width: 109px;
+    height: 33px;
+    left: 540px;
+    top: 10px;
+    font-family: 'Istok_Web';
+    font-size: 15px;
+    /* background: #246FB5; */
+    background: linear-gradient(180deg, #0162c8, #38a8b9);
+    border-radius: 11px;
+    margin: 20px 10px;
+    position: relative;
+    margin-right: 30px;
+    border: none;
+    cursor: pointer;
+   
+}
+
+
+.Secondary
+{
+    color: #fff;
+    width: 109px;
+    height: 33px;
+    left: 540px;
+    top: 10px;
+    font-family: 'Istok_Web';
+    font-size: 15px;
+    background: linear-gradient(150deg, #755bea, #377680);
+    /* background: #246FB5; */
+    border-radius: 11px;
+    margin: 20px 10px;
+    position: relative;
+    border: none;
+    cursor: pointer;
+}
+
+.GuestButton
+{
+    font-family: 'Istok_Web';
+    position: absolute;
+    width: 109px;
+    height: 33px;
+    left: 619px;
+    top: 90px;
+    border: none;
+    font-size: 15px;
+    border-radius: 11px;
+    margin: 20px 10px;
+    position: relative;
+    color: #fff;
+    background: #246FB5;
+    cursor: pointer;
+}
+
+/* .itemmain::after{
+    content:'';
+    height: 2px;
+    width: 0%;
+    background-color: #246FB5;
+    display: block;
+    transition: .5 ease-in-out;
+   
+}
+
+.itemmain:hover::after{
+    content: '';
+    height: 3px;
+    width: 50%;
+    background-color: #246FB5;
+    display: block;
+} */

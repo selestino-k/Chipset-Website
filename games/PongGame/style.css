@@ -1,0 +1,17 @@
+.grid{
+    position:absolute;
+    width: 600px;
+    height: 300px;
+    border: solid black 1px;
+}
+
+.block{
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    left: 235px;
+    bottom: 30px;
+
+
+    background-image: url(/games/PongGame/PongAssets/breaker.png);
+}
