@@ -20,7 +20,7 @@ img {
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: red;
+   background-color: rgba(8, 108, 180, 0.996);
    color: white;
    text-align: center;
    padding-bottom: 20px;
