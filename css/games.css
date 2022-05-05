@@ -2,18 +2,32 @@ img {
     width: 384px;
     height: 216px;
     size: 540px 540px;
+    padding: 20px;
 }
 .judul{
     font-family: 'Courier New', Courier, monospace;
     padding-left: 85px;
 }
-.gamesrow{
+.games{
     display: flex;
+    flex-wrap: wrap;
     float: left;
+    padding-left: 70px;
     padding-bottom: 20px;
 }
-.gamescolumn{
-    flex : 33.33%;
-    padding: 5px;
-    padding-left: 85px;
+.footer{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+   padding-bottom: 20px;
+   text-align: center;
+   vertical-align: middle;
+   
+}
+span{
+    vertical-align: middle;
 }
