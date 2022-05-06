@@ -28,6 +28,9 @@ img {
    vertical-align: middle;
    
 }
+body{
+    position: relative;
+}
 span{
     vertical-align: middle;
 }

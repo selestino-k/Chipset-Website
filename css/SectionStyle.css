@@ -12,6 +12,10 @@
     src: url(/fonts/IstokWeb-Bold.ttf);
 }
 
+@font-face {
+    font-family: 'Barlow-Regular';
+    src: url(/fonts/Barlow/Barlow-Regular.ttf);
+}
 .logochipset{
     position: absolute;
     width: 106.65px;
