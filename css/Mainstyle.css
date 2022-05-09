@@ -95,7 +95,7 @@ header .navigation li a
 }
 header .navigation li a:hover
 {
-    color: #246FB5;
+    color: rgb(2, 108, 238);
 }
 header .title:hover
 {
