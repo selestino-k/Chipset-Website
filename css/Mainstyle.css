@@ -7,8 +7,16 @@
     font-family: 'Inter';
     src: url(/fonts/Inter-Bold.ttf);
 }
+@font-face {
+    font-family: 'Barlow-Bold';
+    src: url(/fonts/Barlow/Barlow-Bold.ttf);
+   
+}
+@font-face {
+    font-family: 'Barlow-Light';
+    src: url(/fonts/Barlow/Barlow-Light.ttf);
 
-
+}
 
 *{
     margin: 0;
@@ -89,11 +97,64 @@ header .navigation li a:hover
 {
     color: #246FB5;
 }
-
 header .title:hover
 {
     color: #245888;
 }
+i{
+    padding: 12px;
+}
+.sociallink{
+    color:rgb(0, 0, 0);
+}
+.sociallink:hover{
+    color: rgb(2, 108, 238);
+}
+.navigation{
+    padding-right: 20px;
+}
+.footer{
+   
+    margin-top: auto;
+    width: 100%;
+    padding: 100px 15%;
+    background-color: rgb(16, 116, 203);
+    color: white;
+    display: flex;
+    
+    
+ }
+ 
+ .footer div{
+     text-align: center;
+ }
+ .col2{
+     flex-grow: 2;
+ }
+ .footer div h3{
+     font-weight: 300;
+     margin-bottom: 30px;
+     letter-spacing: 1px;
+     font-family: 'Barlow-Bold';
+ }
+ .col1, .col2, .col3{
+     font-family: 'Barlow-Light';
+ }
+ .col1 a{
+      display: block;
+      text-decoration: none;
+      color: white;
+      margin-bottom: 10px;
+ }
+ .col2 p{
+     margin-bottom: 10px
+ }
+ .col3 a{
+     display: block;
+      text-decoration: none;
+      color: white;
+      margin-bottom: 10px;
+ }
 
 
 

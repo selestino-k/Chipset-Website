@@ -3,9 +3,14 @@ img {
     height: 216px;
     size: 540px 540px;
     padding: 20px;
+   
 }
+i{
+    padding: 12px;
+}
+
 .judul{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Inter';
     padding-left: 85px;
 }
 .games{
@@ -15,19 +20,8 @@ img {
     padding-left: 70px;
     padding-bottom: 20px;
 }
-.footer{
-    position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: rgba(8, 108, 180, 0.996);
-   color: white;
-   text-align: center;
-   padding-bottom: 20px;
-   text-align: center;
-   vertical-align: middle;
-   
-}
+
+
 body{
     position: relative;
 }
