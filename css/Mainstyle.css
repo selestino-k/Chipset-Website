@@ -155,6 +155,10 @@ i{
       color: white;
       margin-bottom: 10px;
  }
+ .bottomlink{
+    align-items: center;
+    text-align: left;
+}
 
 
 
