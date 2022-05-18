@@ -22,9 +22,7 @@
     position: relative;
     left: 85px;
     font-family: "Barlow-Bold";
-    background-color: #1e6ff3; 
     border: 10px;
-    border-color: white;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -36,14 +34,21 @@
     font-size: 20px;
     margin-left: 15px;
 }
+.btn-group .signin{
+    background-color: #1e6ff3;
+    border: 3px solid;
+    border-color: #1e6ff3;
+}
+.btn-group .guest {
+    border: 3px solid ;
+    background-color:transparent;
+}
 .btn-group button:hover {
     background-color:white;
     color: #1e6ff3;
-    
 }
 .judul
 {
-    
     padding-top: 300px;
     font-family: 'Inter';
     src: url(/fonts/Inter-Bold.ttf);
